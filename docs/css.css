@@ -48,4 +48,5 @@ a {
   text-decoration: none; /* no underline */
  color: inherit;
    all: unset;
+cursor: pointer;
 }

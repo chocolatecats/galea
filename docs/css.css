@@ -44,3 +44,7 @@ html, body {
   color: #ffffffcc;
   text-decoration: none
 }
+a {
+  text-decoration: none; /* no underline */
+ color: inherit;
+}

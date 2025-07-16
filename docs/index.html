@@ -1,29 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<link rel="icon" type="image/png" href="favicon.png">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>Galea Marine Collective</title>
-   <link rel="stylesheet" href="css.css"/>
-   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <title>Galea Marine Collective</title>
+  <link rel="stylesheet" href="css.css" />
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MWZKYC4523"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-MWZKYC4523');
-</script>
-	
- </head>
+</head>
 <body>
-  <div class="background">
-    <div class="overlay">
-      <img src="logo.png" alt="Galea Marine Collective Logo" class="logo" />
-     <a href="https://www.etsy.com/au/listing/1383890774/galea-secret-life-of-sharks-design">  <p class="coming-soon">BUY THE SECRET LIFE OF SHARKS</p> </a>
+
+  <!-- Navigation Bar -->
+  <header class="nav">
+    <div class="logo">  GALEA MARINE COLLECTIVE </div>
+    <nav>
+      <a href="https://www.etsy.com/au/listing/1383890774/galea-secret-life-of-sharks-design">SHOP</a>
+    
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+			<br>
+    <img src="images/headline-top.png" alt="Reframing Ocean Life" class="headline headline-top" />
+      <img src="images/headline-bottom.png" alt="Through Art & Data" class="headline headline-bottom" />
+
+			 <a  onClick="document.getElementById('featured').scrollIntoView({ behavior: 'smooth' });" class="btn bottom-right">DISCOVER OUR WORK</a>
+
+    </div>
+
+  </section>
+
+	<section class="info-section">
+  <div class="info-content">
+    <h2>Shifting the Narrative on Sharks and the Sea</h2>
+    <p>
+      Galea Marine Collective is a creative studio dedicated to reshaping the way we see ocean life, with a special focus on sharks. We use design to shift how society views marine creatures and advocate for their conservation.
+    </p>
+  </div>
+</section>
+
+
+<section class="featured" id="featured">
+  <h2 class="featured-label">FEATURED WORK</h2>
+  <div class="featured-content">
+    <div class="book-image">
+      <a href="https://www.etsy.com/au/listing/1383890774/galea-secret-life-of-sharks-design" > 
+      <img  src="images/product.png" alt="Secret Life of Sharks book mockup">
+      </a>
+    </div>
+    <div class="book-text">
+      <img src="images/secret-title.png" alt="Secret Life of Sharks" class="book-title">
+      <p class="book-description">
+        A richly illustrated book that uses data visualisation, typography, and art to reframe how society views sharks. 
+      </p>
+      <a href="https://www.etsy.com/au/listing/1383890774/galea-secret-life-of-sharks-design" class="btn explore-btn">PURCHASE THE BOOK</a>
     </div>
   </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <img src="images/footer-logo.png" alt="Galea Logo" class="footer-logo" />
+    <div class="footer-text white">
+      <p>Reframing marine life through art & visual communication.</p>
+      <br>
+      <p>Sydney, Australia<br>Galea Marine Collective © 2025 All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
+
+
 </body>
 </html>

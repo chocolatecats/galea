@@ -88,14 +88,14 @@ position: relative;
 
 .headline-top {
   top: 15%;
-  min-width: 340px
+  min-width: 300px
 
 }
 
 .headline-bottom {
   bottom: 20%;
   right: 0;
-  min-width: 340px;
+  min-width: 300px;
 }
 
 .btn {

@@ -45,7 +45,7 @@ html, body {
   text-decoration: none
 }
 a {
-  text-decoration: none; /* no underline */
+  text-decoration: underline;
  color: inherit;
    all: unset;
 cursor: pointer;

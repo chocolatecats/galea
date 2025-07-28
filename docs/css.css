@@ -54,6 +54,15 @@ a {
 }
 
 
+@media (max-width: 800px) {
+ .nav {
+
+}
+
+}
+
+
+
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -305,7 +314,7 @@ p {
   padding: 100px 20px;
   text-align: center;
   font-weight: regular;
-
+  
 }
 
 .why-title {
@@ -320,17 +329,19 @@ p {
   flex-wrap: wrap;
   justify-content: center;  /* Ensures each row is centered */
   gap: 60px 40px;
-
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1rem
 }
 
 .shark-point {
-  max-width: 300px;
+ max-width: 300px;
   text-align: center;
   margin: 0 auto;
 }
 
 .shark-point img {
-  width: 60px;
+  width: 80px;
   height: auto;
   margin-bottom: 20px;
 }

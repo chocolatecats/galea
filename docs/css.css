@@ -320,7 +320,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;  /* Ensures each row is centered */
   gap: 60px 40px;
-  max-width: 800px
+
 }
 
 .shark-point {
